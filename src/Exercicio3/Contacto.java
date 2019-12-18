@@ -16,6 +16,9 @@ public class Contacto {
         this.email = email;
     }
 
+    public Contacto() {
+    }
+
     public String getNome() {
         return nome;
     }
@@ -38,6 +41,11 @@ public class Contacto {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Contacto{" + "nome=" + nome + ", numero=" + numero + ", email=" + email + '}';
     }
     
 }
