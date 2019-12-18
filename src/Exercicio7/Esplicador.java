@@ -17,5 +17,18 @@ Nome de usuário, data de nascimento, email, código de visita
     private int dataNascimento;
     private String email;
     private int codVisita;
+    
+/*7.2. Faça o encapsulamento dos atributos da classe Explicador
+*7.3. Os atributos nome de usuário, data de nascimento, email e código de visita são
+*obrigatórios (crie um construtor com esses parâmetros)
+*/
+
+    public Esplicador(String nomeUsuario, int dataNascimento, String email, int codVisita) {
+        this.nomeUsuario = nomeUsuario;
+        this.dataNascimento = dataNascimento;
+        this.email = email;
+        this.codVisita = codVisita;
+    }
+    
 
 }
